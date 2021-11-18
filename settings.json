@@ -120,6 +120,32 @@
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/mysqlsh.ico",
                 "name": "MySQL Shell",
                 "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/node_1240x700.png?raw=true",
+                "colorScheme": "Campbell",
+                "commandline": "node.exe",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font"
+                },
+                "guid": "{595b01ee-0aaa-45c3-b95e-5536d13720bf}",
+                "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/node.ico",
+                "name": "Node.js",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/python_656x400.png?raw=true",
+                "colorScheme": "Campbell",
+                "commandline": "python.exe",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font"
+                },
+                "guid": "{3da5e8ad-07b0-46e5-85d0-7502dc35fe47}",
+                "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/python.ico",
+                "name": "Python",
+                "startingDirectory": "%USERPROFILE%"
             }
         ]
     },
