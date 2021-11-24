@@ -100,7 +100,7 @@
       {
         "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/azure_2736x1824.jpg?raw=true",
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-        "hidden": false,
+        "hidden": true,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
       },
