@@ -52,7 +52,7 @@
         [
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_11_1920x1200.jpg?raw=true",
-                "commandline": "pwsh.exe -NoLogo",
+                "commandline": "pwsh -NoLogo",
                 "font":
                 {
                     "face": "FiraCode Nerd Font"
@@ -64,7 +64,7 @@
             },
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_10_2560x1600.jpg?raw=true",
-                "commandline": "powershell.exe -NoLogo",
+                "commandline": "powershell -NoLogo",
                 "font":
                 {
                     "face": "FiraCode Nerd Font"
@@ -75,7 +75,7 @@
             },
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_7_1024x640.jpg?raw=true",
-                "commandline": "cmd.exe /k",
+                "commandline": "cmd /k",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -84,7 +84,7 @@
             },
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/git_1920x1080.jpg?raw=true",
-                "commandline": "bash.exe",
+                "commandline": "bash",
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
                 "name": "Git Bash",
@@ -115,7 +115,7 @@
             },
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/mysql_1200x514.png?raw=true",
-                "commandline": "mysqlsh.exe",
+                "commandline": "mysqlsh",
                 "guid": "{410c1798-cce8-4681-bb6c-f17f75e8f72a}",
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/mysqlsh.ico",
                 "name": "MySQL Shell",
@@ -124,7 +124,7 @@
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/node_1240x700.png?raw=true",
                 "colorScheme": "Campbell",
-                "commandline": "node.exe",
+                "commandline": "node",
                 "font":
                 {
                     "face": "Consolas"
@@ -137,7 +137,7 @@
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/python_656x400.png?raw=true",
                 "colorScheme": "Campbell",
-                "commandline": "python.exe",
+                "commandline": "python",
                 "font":
                 {
                     "face": "Consolas"
