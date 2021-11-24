@@ -25,12 +25,18 @@
       "keys": "alt+shift+d"
     }
   ],
+  "initialRows": 30,
+  "initialCols": 100,
+  "copyOnSelect": false,
   "alwaysShowTabs": true,
   "copyFormatting": "none",
-  "copyOnSelect": false,
+  "showTabsInTitlebar": true,
+  "trimBlockSelection": true,
+  "useAcrylicInTabRow": true,
+  "windowingBehavior": "useExisting",
+  "showTerminalTitleInTitlebar": false,
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-  "initialCols": 100,
-  "initialRows": 30,
+  "wordDelimiters": " /\\()\"'-.,:;<>~!@#$%^&*|+=[]{}~?\u2502-_",
   "profiles": {
     "defaults": {
       "useAcrylic": true,
@@ -50,102 +56,96 @@
     },
     "list": [
       {
+        "name": "PowerShell",
+        "hidden": false,
         "commandline": "pwsh -NoLogo",
+        "source": "Windows.Terminal.PowershellCore",
+        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+        "icon": "ms-appx:///ProfileIcons/pwsh-preview.png",
         "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_11_1920x1200.jpg?raw=true",
         "font": {
           "face": "FiraCode Nerd Font"
-        },
-        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-        "hidden": false,
-        "name": "PowerShell",
-        "icon": "ms-appx:///ProfileIcons/pwsh-preview.png",
-        "source": "Windows.Terminal.PowershellCore"
+        }
       },
       {
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_10_2560x1600.jpg?raw=true",
+        "name": "Windows PowerShell",
+        "hidden": false,
         "commandline": "powershell -NoLogo",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_10_2560x1600.jpg?raw=true",
         "font": {
           "face": "FiraCode Nerd Font"
-        },
-        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-        "hidden": false,
-        "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
-        "name": "Windows PowerShell"
+        }
       },
       {
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_7_1024x640.jpg?raw=true",
         "commandline": "cmd /k",
+        "hidden": false,
+        "name": "Command Prompt",
         "cursorShape": "vintage",
         "experimental.retroTerminalEffect": false,
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-        "hidden": false,
         "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-        "name": "Command Prompt"
+        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_7_1024x640.jpg?raw=true"
       },
       {
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/git_1920x1080.jpg?raw=true",
-        "commandline": "bash",
-        "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+        "source": "Git",
         "hidden": false,
         "name": "Git Bash",
+        "commandline": "bash",
+        "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
         "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
-        "source": "Git"
+        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/git_1920x1080.jpg?raw=true"
       },
       {
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/ubuntu_752x376.png?raw=true",
-        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-        "hidden": false,
-        "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/ubuntu.ico",
         "name": "Ubuntu",
-        "source": "Windows.Terminal.Wsl"
-      },
-      {
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/kali_1280x720.png?raw=true",
-        "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
         "hidden": false,
-        "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/kali.ico",
+        "source": "Windows.Terminal.Wsl",
+        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+        "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/ubuntu.ico",
+        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/ubuntu_752x376.png?raw=true"
+      },
+      {
         "name": "Kali",
-        "source": "Windows.Terminal.Wsl"
+        "hidden": false,
+        "source": "Windows.Terminal.Wsl",
+        "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+        "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/kali.ico",
+        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/kali_1280x720.png?raw=true"
       },
       {
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/azure_2736x1824.jpg?raw=true",
-        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-        "hidden": true,
         "name": "Azure Cloud Shell",
+        "hidden": true,
+        "source": "Windows.Terminal.Azure",
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
         "icon": "ms-appx:///ProfileIcons/{b453ae62-4e3d-5e58-b989-0a998ec441b8}.png",
-        "source": "Windows.Terminal.Azure"
+        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/azure_2736x1824.jpg?raw=true"
       },
       {
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/mysql_1200x514.png?raw=true",
+        "name": "MySQL Shell",
         "commandline": "mysqlsh",
+        "startingDirectory": "%USERPROFILE%",
         "guid": "{410c1798-cce8-4681-bb6c-f17f75e8f72a}",
         "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/mysqlsh.ico",
-        "name": "MySQL Shell",
-        "startingDirectory": "%USERPROFILE%"
+        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/mysql_1200x514.png?raw=true"
       },
       {
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/node_1240x700.png?raw=true",
-        "colorScheme": "Campbell",
+        "name": "Node.js",
         "commandline": "node",
-        "font": {
-          "face": "Consolas"
-        },
+        "colorScheme": "Campbell",
+        "startingDirectory": "%USERPROFILE%",
         "guid": "{595b01ee-0aaa-45c3-b95e-5536d13720bf}",
         "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/node.ico",
-        "name": "Node.js",
-        "startingDirectory": "%USERPROFILE%"
+        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/node_1240x700.png?raw=true"
       },
       {
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/python_656x400.png?raw=true",
-        "colorScheme": "Campbell",
+        "name": "Python",
         "commandline": "python",
-        "font": {
-          "face": "Consolas"
-        },
+        "colorScheme": "Campbell",
+        "startingDirectory": "%USERPROFILE%",
         "guid": "{3da5e8ad-07b0-46e5-85d0-7502dc35fe47}",
         "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/python.ico",
-        "name": "Python",
-        "startingDirectory": "%USERPROFILE%"
+        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/python_656x400.png?raw=true"
       }
     ]
   },
@@ -242,11 +242,5 @@
       "cursorColor": "#c9d1d9",
       "selectionBackground": "#3b5070"
     }
-  ],
-  "showTabsInTitlebar": true,
-  "showTerminalTitleInTitlebar": false,
-  "trimBlockSelection": true,
-  "useAcrylicInTabRow": true,
-  "windowingBehavior": "useExisting",
-  "wordDelimiters": " /\\()\"'-.,:;<>~!@#$%^&*|+=[]{}~?\u2502-_"
+  ]
 }
