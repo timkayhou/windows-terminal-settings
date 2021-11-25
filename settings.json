@@ -92,7 +92,7 @@
         "source": "Git",
         "hidden": false,
         "name": "Git Bash",
-        "commandline": "bash",
+        "commandline": "bash -l -i",
         "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
         "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
         "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/git_1920x1080.jpg?raw=true"
