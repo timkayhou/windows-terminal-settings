@@ -1,246 +1,463 @@
 {
-  "$schema": "https://aka.ms/terminal-profiles-schema",
-  "actions": [
-    {
-      "command": {
-        "action": "copy",
-        "singleLine": false
-      },
-      "keys": "ctrl+c"
-    },
-    {
-      "command": "paste",
-      "keys": "ctrl+v"
-    },
-    {
-      "command": "find",
-      "keys": "ctrl+shift+f"
-    },
-    {
-      "command": {
-        "action": "splitPane",
-        "split": "auto",
-        "splitMode": "duplicate"
-      },
-      "keys": "alt+shift+d"
-    }
-  ],
-  "initialRows": 30,
-  "initialCols": 100,
-  "copyOnSelect": false,
-  "alwaysShowTabs": true,
-  "copyFormatting": "none",
-  "showTabsInTitlebar": true,
-  "trimBlockSelection": true,
-  "useAcrylicInTabRow": true,
-  "windowingBehavior": "useExisting",
-  "showTerminalTitleInTitlebar": false,
-  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-  "wordDelimiters": " /\\()\"'-.,:;<>~!@#$%^&*|+=[]{}~?\u2502-_",
-  "profiles": {
-    "defaults": {
-      "useAcrylic": true,
-      "snapOnInput": true,
-      "closeOnExit": true,
-      "acrylicOpacity": 0.3,
-      "cursorColor": "#66ccff",
-      "backgroundImageOpacity": 0.3,
-      "antialiasingMode": "cleartype",
-      "icon": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.11.2921.0_x64__8wekyb3d8bbwe\\Images\\terminal_contrast-white.ico",
-      "backgroundImage": "https://i0.hdslb.com/bfs/article/fc05814ad490adc95044d96fb6492e3c5a2fdbcb.jpg@942w_531h_progressive.webp",
-      "font": {
-        "size": 12,
-        "face": "Consolas",
-        "weight": "normal"
-      }
-    },
-    "list": [
-      {
-        "name": "PowerShell",
-        "hidden": false,
-        "commandline": "pwsh -NoLogo",
-        "source": "Windows.Terminal.PowershellCore",
-        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-        "icon": "ms-appx:///ProfileIcons/pwsh-preview.png",
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_11_1920x1200.jpg?raw=true",
-        "font": {
-          "face": "FiraCode Nerd Font"
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
         }
-      },
-      {
-        "name": "Windows PowerShell",
-        "hidden": false,
-        "commandline": "powershell -NoLogo",
-        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-        "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_10_2560x1600.jpg?raw=true",
-        "font": {
-          "face": "FiraCode Nerd Font"
+    ],
+    "alwaysShowTabs": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "initialCols": 100,
+    "initialRows": 30,
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "acrylicOpacity": 0.29999999999999999,
+            "antialiasingMode": "cleartype",
+            "backgroundImage": "https://i0.hdslb.com/bfs/article/fc05814ad490adc95044d96fb6492e3c5a2fdbcb.jpg@942w_531h_progressive.webp",
+            "backgroundImageOpacity": 0.29999999999999999,
+            "closeOnExit": "graceful",
+            "cursorColor": "#66CCFF",
+            "font": 
+            {
+                "face": "Consolas",
+                "size": 12,
+                "weight": "normal"
+            },
+            "icon": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.11.2921.0_x64__8wekyb3d8bbwe\\Images\\terminal_contrast-white.ico",
+            "snapOnInput": true,
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_11_1920x1200.jpg?raw=true",
+                "commandline": "pwsh -NoLogo",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font"
+                },
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh-preview.png",
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_10_2560x1600.jpg?raw=true",
+                "commandline": "powershell -NoLogo",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Windows PowerShell"
+            },
+            {
+                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_7_1024x640.jpg?raw=true",
+                "commandline": "cmd /k",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Command Prompt"
+            },
+            {
+                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/git_1920x1080.jpg?raw=true",
+                "commandline": "bash -l -i",
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/ubuntu_752x376.png?raw=true",
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/ubuntu.ico",
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/kali_1280x720.png?raw=true",
+                "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+                "hidden": false,
+                "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/kali.ico",
+                "name": "Kali",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/azure_2736x1824.jpg?raw=true",
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "icon": "ms-appx:///ProfileIcons/{b453ae62-4e3d-5e58-b989-0a998ec441b8}.png",
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/mysql_1200x514.png?raw=true",
+                "commandline": "mysqlsh -u root",
+                "guid": "{410c1798-cce8-4681-bb6c-f17f75e8f72a}",
+                "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/mysqlsh.ico",
+                "name": "MySQL Shell",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/node_1240x700.png?raw=true",
+                "colorScheme": "Campbell",
+                "commandline": "node",
+                "guid": "{595b01ee-0aaa-45c3-b95e-5536d13720bf}",
+                "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/node.ico",
+                "name": "Node.js",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/python_656x400.png?raw=true",
+                "colorScheme": "Campbell",
+                "commandline": "python",
+                "guid": "{3da5e8ad-07b0-46e5-85d0-7502dc35fe47}",
+                "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/python.ico",
+                "name": "Python",
+                "startingDirectory": "%USERPROFILE%"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#F7F7F7",
+            "black": "#090300",
+            "blue": "#01A0E4",
+            "brightBlack": "#5C5855",
+            "brightBlue": "#807D7C",
+            "brightCyan": "#CDAB53",
+            "brightGreen": "#3A3432",
+            "brightPurple": "#D6D5D4",
+            "brightRed": "#E8BBD0",
+            "brightWhite": "#F7F7F7",
+            "brightYellow": "#4A4543",
+            "cursorColor": "#4A4543",
+            "cyan": "#B5E4F4",
+            "foreground": "#4A4543",
+            "green": "#01A252",
+            "name": "3024 Day",
+            "purple": "#A16A94",
+            "red": "#DB2D20",
+            "selectionBackground": "#A5A2A2",
+            "white": "#A5A2A2",
+            "yellow": "#FDED02"
+        },
+        {
+            "background": "#090300",
+            "black": "#090300",
+            "blue": "#01A0E4",
+            "brightBlack": "#5C5855",
+            "brightBlue": "#807D7C",
+            "brightCyan": "#CDAB53",
+            "brightGreen": "#3A3432",
+            "brightPurple": "#D6D5D4",
+            "brightRed": "#E8BBD0",
+            "brightWhite": "#F7F7F7",
+            "brightYellow": "#4A4543",
+            "cursorColor": "#A5A2A2",
+            "cyan": "#B5E4F4",
+            "foreground": "#A5A2A2",
+            "green": "#01A252",
+            "name": "3024 Night",
+            "purple": "#A16A94",
+            "red": "#DB2D20",
+            "selectionBackground": "#4A4543",
+            "white": "#A5A2A2",
+            "yellow": "#FDED02"
+        },
+        {
+            "background": "#0C0C0C",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#CCCCCC",
+            "green": "#13A10E",
+            "name": "Campbell",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#012456",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#CCCCCC",
+            "green": "#13A10E",
+            "name": "Campbell Powershell",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#101216",
+            "black": "#000000",
+            "blue": "#6CA4F8",
+            "brightBlack": "#4D4D4D",
+            "brightBlue": "#6CA4F8",
+            "brightCyan": "#2B7489",
+            "brightGreen": "#56D364",
+            "brightPurple": "#DB61A2",
+            "brightRed": "#F78166",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#E3B341",
+            "cursorColor": "#C9D1D9",
+            "cyan": "#2B7489",
+            "foreground": "#8B949E",
+            "green": "#56D364",
+            "name": "GitHub Dark",
+            "purple": "#DB61A2",
+            "red": "#F78166",
+            "selectionBackground": "#3B5070",
+            "white": "#FFFFFF",
+            "yellow": "#E3B341"
+        },
+        {
+            "background": "#F4F4F4",
+            "black": "#3E3E3E",
+            "blue": "#003E8A",
+            "brightBlack": "#666666",
+            "brightBlue": "#2E6CBA",
+            "brightCyan": "#1CFAFE",
+            "brightGreen": "#87D5A2",
+            "brightPurple": "#FFA29F",
+            "brightRed": "#DE0000",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F1D007",
+            "cursorColor": "#3F3F3F",
+            "cyan": "#89D1EC",
+            "foreground": "#3E3E3E",
+            "green": "#07962A",
+            "name": "Github",
+            "purple": "#E94691",
+            "red": "#970B16",
+            "selectionBackground": "#A9C1E2",
+            "white": "#FFFFFF",
+            "yellow": "#F8EEC7"
+        },
+        {
+            "background": "#282C34",
+            "black": "#282C34",
+            "blue": "#61AFEF",
+            "brightBlack": "#5A6374",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B6C2",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C678DD",
+            "brightRed": "#E06C75",
+            "brightWhite": "#DCDFE4",
+            "brightYellow": "#E5C07B",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#56B6C2",
+            "foreground": "#DCDFE4",
+            "green": "#98C379",
+            "name": "One Half Dark",
+            "purple": "#C678DD",
+            "red": "#E06C75",
+            "selectionBackground": "#FFFFFF",
+            "white": "#DCDFE4",
+            "yellow": "#E5C07B"
+        },
+        {
+            "background": "#FAFAFA",
+            "black": "#383A42",
+            "blue": "#0184BC",
+            "brightBlack": "#4F525D",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B5C1",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C577DD",
+            "brightRed": "#DF6C75",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#E4C07A",
+            "cursorColor": "#4F525D",
+            "cyan": "#0997B3",
+            "foreground": "#383A42",
+            "green": "#50A14F",
+            "name": "One Half Light",
+            "purple": "#A626A4",
+            "red": "#E45649",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FAFAFA",
+            "yellow": "#C18301"
+        },
+        {
+            "background": "#002B36",
+            "black": "#002B36",
+            "blue": "#268BD2",
+            "brightBlack": "#073642",
+            "brightBlue": "#839496",
+            "brightCyan": "#93A1A1",
+            "brightGreen": "#586E75",
+            "brightPurple": "#6C71C4",
+            "brightRed": "#CB4B16",
+            "brightWhite": "#FDF6E3",
+            "brightYellow": "#657B83",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#2AA198",
+            "foreground": "#839496",
+            "green": "#859900",
+            "name": "Solarized Dark",
+            "purple": "#D33682",
+            "red": "#DC322F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#EEE8D5",
+            "yellow": "#B58900"
+        },
+        {
+            "background": "#FDF6E3",
+            "black": "#002B36",
+            "blue": "#268BD2",
+            "brightBlack": "#073642",
+            "brightBlue": "#839496",
+            "brightCyan": "#93A1A1",
+            "brightGreen": "#586E75",
+            "brightPurple": "#6C71C4",
+            "brightRed": "#CB4B16",
+            "brightWhite": "#FDF6E3",
+            "brightYellow": "#657B83",
+            "cursorColor": "#002B36",
+            "cyan": "#2AA198",
+            "foreground": "#657B83",
+            "green": "#859900",
+            "name": "Solarized Light",
+            "purple": "#D33682",
+            "red": "#DC322F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#EEE8D5",
+            "yellow": "#B58900"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#3465A4",
+            "brightBlack": "#555753",
+            "brightBlue": "#729FCF",
+            "brightCyan": "#34E2E2",
+            "brightGreen": "#8AE234",
+            "brightPurple": "#AD7FA8",
+            "brightRed": "#EF2929",
+            "brightWhite": "#EEEEEC",
+            "brightYellow": "#FCE94F",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#06989A",
+            "foreground": "#D3D7CF",
+            "green": "#4E9A06",
+            "name": "Tango Dark",
+            "purple": "#75507B",
+            "red": "#CC0000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#D3D7CF",
+            "yellow": "#C4A000"
+        },
+        {
+            "background": "#FFFFFF",
+            "black": "#000000",
+            "blue": "#3465A4",
+            "brightBlack": "#555753",
+            "brightBlue": "#729FCF",
+            "brightCyan": "#34E2E2",
+            "brightGreen": "#8AE234",
+            "brightPurple": "#AD7FA8",
+            "brightRed": "#EF2929",
+            "brightWhite": "#EEEEEC",
+            "brightYellow": "#FCE94F",
+            "cursorColor": "#000000",
+            "cyan": "#06989A",
+            "foreground": "#555753",
+            "green": "#4E9A06",
+            "name": "Tango Light",
+            "purple": "#75507B",
+            "red": "#CC0000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#D3D7CF",
+            "yellow": "#C4A000"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#000080",
+            "brightBlack": "#808080",
+            "brightBlue": "#0000FF",
+            "brightCyan": "#00FFFF",
+            "brightGreen": "#00FF00",
+            "brightPurple": "#FF00FF",
+            "brightRed": "#FF0000",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF00",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#008080",
+            "foreground": "#C0C0C0",
+            "green": "#008000",
+            "name": "Vintage",
+            "purple": "#800080",
+            "red": "#800000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C0C0C0",
+            "yellow": "#808000"
         }
-      },
-      {
-        "commandline": "cmd /k",
-        "hidden": false,
-        "name": "Command Prompt",
-        "cursorShape": "vintage",
-        "experimental.retroTerminalEffect": false,
-        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-        "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_7_1024x640.jpg?raw=true"
-      },
-      {
-        "source": "Git",
-        "hidden": false,
-        "name": "Git Bash",
-        "commandline": "bash -l -i",
-        "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-        "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/git_1920x1080.jpg?raw=true"
-      },
-      {
-        "name": "Ubuntu",
-        "hidden": false,
-        "source": "Windows.Terminal.Wsl",
-        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-        "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/ubuntu.ico",
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/ubuntu_752x376.png?raw=true"
-      },
-      {
-        "name": "Kali",
-        "hidden": false,
-        "source": "Windows.Terminal.Wsl",
-        "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
-        "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/kali.ico",
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/kali_1280x720.png?raw=true"
-      },
-      {
-        "name": "Azure Cloud Shell",
-        "hidden": true,
-        "source": "Windows.Terminal.Azure",
-        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-        "icon": "ms-appx:///ProfileIcons/{b453ae62-4e3d-5e58-b989-0a998ec441b8}.png",
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/azure_2736x1824.jpg?raw=true"
-      },
-      {
-        "name": "MySQL Shell",
-        "commandline": "mysqlsh",
-        "startingDirectory": "%USERPROFILE%",
-        "guid": "{410c1798-cce8-4681-bb6c-f17f75e8f72a}",
-        "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/mysqlsh.ico",
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/mysql_1200x514.png?raw=true"
-      },
-      {
-        "name": "Node.js",
-        "commandline": "node",
-        "colorScheme": "Campbell",
-        "startingDirectory": "%USERPROFILE%",
-        "guid": "{595b01ee-0aaa-45c3-b95e-5536d13720bf}",
-        "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/node.ico",
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/node_1240x700.png?raw=true"
-      },
-      {
-        "name": "Python",
-        "commandline": "python",
-        "colorScheme": "Campbell",
-        "startingDirectory": "%USERPROFILE%",
-        "guid": "{3da5e8ad-07b0-46e5-85d0-7502dc35fe47}",
-        "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/python.ico",
-        "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/python_656x400.png?raw=true"
-      }
-    ]
-  },
-  "schemes": [
-    {
-      "name": "3024 Day",
-      "black": "#090300",
-      "red": "#db2d20",
-      "green": "#01a252",
-      "yellow": "#fded02",
-      "blue": "#01a0e4",
-      "purple": "#a16a94",
-      "cyan": "#b5e4f4",
-      "white": "#a5a2a2",
-      "brightBlack": "#5c5855",
-      "brightRed": "#e8bbd0",
-      "brightGreen": "#3a3432",
-      "brightYellow": "#4a4543",
-      "brightBlue": "#807d7c",
-      "brightPurple": "#d6d5d4",
-      "brightCyan": "#cdab53",
-      "brightWhite": "#f7f7f7",
-      "background": "#f7f7f7",
-      "foreground": "#4a4543",
-      "cursorColor": "#4a4543",
-      "selectionBackground": "#a5a2a2"
-    },
-    {
-      "name": "3024 Night",
-      "black": "#090300",
-      "red": "#db2d20",
-      "green": "#01a252",
-      "yellow": "#fded02",
-      "blue": "#01a0e4",
-      "purple": "#a16a94",
-      "cyan": "#b5e4f4",
-      "white": "#a5a2a2",
-      "brightBlack": "#5c5855",
-      "brightRed": "#e8bbd0",
-      "brightGreen": "#3a3432",
-      "brightYellow": "#4a4543",
-      "brightBlue": "#807d7c",
-      "brightPurple": "#d6d5d4",
-      "brightCyan": "#cdab53",
-      "brightWhite": "#f7f7f7",
-      "background": "#090300",
-      "foreground": "#a5a2a2",
-      "cursorColor": "#a5a2a2",
-      "selectionBackground": "#4a4543"
-    },
-    {
-      "name": "Github",
-      "black": "#3e3e3e",
-      "red": "#970b16",
-      "green": "#07962a",
-      "yellow": "#f8eec7",
-      "blue": "#003e8a",
-      "purple": "#e94691",
-      "cyan": "#89d1ec",
-      "white": "#ffffff",
-      "brightBlack": "#666666",
-      "brightRed": "#de0000",
-      "brightGreen": "#87d5a2",
-      "brightYellow": "#f1d007",
-      "brightBlue": "#2e6cba",
-      "brightPurple": "#ffa29f",
-      "brightCyan": "#1cfafe",
-      "brightWhite": "#ffffff",
-      "background": "#f4f4f4",
-      "foreground": "#3e3e3e",
-      "cursorColor": "#3f3f3f",
-      "selectionBackground": "#a9c1e2"
-    },
-    {
-      "name": "GitHub Dark",
-      "black": "#000000",
-      "red": "#f78166",
-      "green": "#56d364",
-      "yellow": "#e3b341",
-      "blue": "#6ca4f8",
-      "purple": "#db61a2",
-      "cyan": "#2b7489",
-      "white": "#ffffff",
-      "brightBlack": "#4d4d4d",
-      "brightRed": "#f78166",
-      "brightGreen": "#56d364",
-      "brightYellow": "#e3b341",
-      "brightBlue": "#6ca4f8",
-      "brightPurple": "#db61a2",
-      "brightCyan": "#2b7489",
-      "brightWhite": "#ffffff",
-      "background": "#101216",
-      "foreground": "#8b949e",
-      "cursorColor": "#c9d1d9",
-      "selectionBackground": "#3b5070"
-    }
-  ]
+    ],
+    "showTabsInTitlebar": true,
+    "showTerminalTitleInTitlebar": false,
+    "trimBlockSelection": true,
+    "useAcrylicInTabRow": true,
+    "windowingBehavior": "useExisting",
+    "wordDelimiters": " /\\()\"'-.,:;<>~!@#$%^&*|+=[]{}~?\u2502-_"
 }
