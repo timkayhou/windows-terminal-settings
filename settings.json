@@ -126,7 +126,7 @@
             },
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/mysql_1200x514.png?raw=true",
-                "commandline": "mysqlsh -u root",
+                "commandline": "mysqlsh -u root --sql",
                 "guid": "{410c1798-cce8-4681-bb6c-f17f75e8f72a}",
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/mysqlsh.ico",
                 "name": "MySQL Shell",
