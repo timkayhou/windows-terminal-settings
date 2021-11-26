@@ -83,7 +83,7 @@
             },
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_7_1024x640.jpg?raw=true",
-                "commandline": "cmd /k",
+                "commandline": "cmd /s /k",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
