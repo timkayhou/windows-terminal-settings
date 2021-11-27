@@ -1,9 +1,9 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
+    "actions":
     [
         {
-            "command": 
+            "command":
             {
                 "action": "copy",
                 "singleLine": false
@@ -19,7 +19,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -34,17 +34,18 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "initialCols": 100,
     "initialRows": 30,
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
-            "acrylicOpacity": 0.29999999999999999,
+            "acrylicOpacity": 0.3,
             "antialiasingMode": "cleartype",
             "backgroundImage": "https://i0.hdslb.com/bfs/article/fc05814ad490adc95044d96fb6492e3c5a2fdbcb.jpg@942w_531h_progressive.webp",
-            "backgroundImageOpacity": 0.29999999999999999,
+            "backgroundImageOpacity": 0.3,
             "closeOnExit": "graceful",
+            "colorScheme": "One Half Dark",
             "cursorColor": "#66CCFF",
-            "font": 
+            "font":
             {
                 "face": "Consolas",
                 "size": 12,
@@ -54,12 +55,12 @@
             "snapOnInput": true,
             "useAcrylic": true
         },
-        "list": 
+        "list":
         [
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_11_1920x1200.jpg?raw=true",
                 "commandline": "pwsh -NoLogo",
-                "font": 
+                "font":
                 {
                     "face": "FiraCode Nerd Font"
                 },
@@ -72,7 +73,7 @@
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_10_2560x1600.jpg?raw=true",
                 "commandline": "powershell -NoLogo",
-                "font": 
+                "font":
                 {
                     "face": "FiraCode Nerd Font"
                 },
@@ -134,7 +135,6 @@
             },
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/node_1240x700.png?raw=true",
-                "colorScheme": "Campbell",
                 "commandline": "node",
                 "guid": "{595b01ee-0aaa-45c3-b95e-5536d13720bf}",
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/node.ico",
@@ -143,16 +143,23 @@
             },
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/python_656x400.png?raw=true",
-                "colorScheme": "Campbell",
                 "commandline": "python",
                 "guid": "{3da5e8ad-07b0-46e5-85d0-7502dc35fe47}",
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/python.ico",
                 "name": "Python",
                 "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/vim_wallpaper_1024x724.jpg?raw=true",
+                "commandline": "C:\\Program Files (x86)\\Vim\\vim82\\vim.exe",
+                "guid": "{1e54bd1e-a851-4a61-b01b-e120fc4c0d87}",
+                "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/vim.ico",
+                "name": "Vim",
+                "startingDirectory": "%USERPROFILE%"
             }
         ]
     },
-    "schemes": 
+    "schemes":
     [
         {
             "background": "#F7F7F7",
