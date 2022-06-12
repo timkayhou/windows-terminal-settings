@@ -1,9 +1,14 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions":
+    "actions": 
     [
         {
-            "command":
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
             {
                 "action": "copy",
                 "singleLine": false
@@ -11,15 +16,11 @@
             "keys": "ctrl+c"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": "find",
             "keys": "ctrl+shift+f"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -34,33 +35,33 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "initialCols": 100,
     "initialRows": 30,
-    "profiles":
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
-            "acrylicOpacity": 0.3,
             "antialiasingMode": "cleartype",
             "backgroundImage": "https://i0.hdslb.com/bfs/article/fc05814ad490adc95044d96fb6492e3c5a2fdbcb.jpg@942w_531h_progressive.webp",
-            "backgroundImageOpacity": 0.3,
+            "backgroundImageOpacity": 0.29999999999999999,
             "closeOnExit": "graceful",
             "colorScheme": "One Half Dark",
             "cursorColor": "#66CCFF",
-            "font":
+            "font": 
             {
                 "face": "Consolas",
                 "size": 12,
                 "weight": "normal"
             },
             "icon": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.11.2921.0_x64__8wekyb3d8bbwe\\Images\\terminal_contrast-white.ico",
+            "opacity": 30,
             "snapOnInput": true,
             "useAcrylic": true
         },
-        "list":
+        "list": 
         [
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_11_1920x1200.jpg?raw=true",
                 "commandline": "pwsh -NoLogo",
-                "font":
+                "font": 
                 {
                     "face": "FiraCode Nerd Font"
                 },
@@ -73,7 +74,7 @@
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_10_2560x1600.jpg?raw=true",
                 "commandline": "powershell -NoLogo",
-                "font":
+                "font": 
                 {
                     "face": "FiraCode Nerd Font"
                 },
@@ -156,10 +157,22 @@
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/vim.ico",
                 "name": "Vim",
                 "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "guid": "{663026e8-708c-520e-b284-873841c964c8}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{ae61a4c0-ef2b-564c-8115-ec717b6672c4}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
         {
             "background": "#F7F7F7",
