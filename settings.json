@@ -157,18 +157,6 @@
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/vim.ico",
                 "name": "Vim",
                 "startingDirectory": "%USERPROFILE%"
-            },
-            {
-                "guid": "{663026e8-708c-520e-b284-873841c964c8}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{ae61a4c0-ef2b-564c-8115-ec717b6672c4}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
