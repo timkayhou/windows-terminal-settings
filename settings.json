@@ -1,14 +1,14 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions":
+    "actions": 
     [
         {
             "command": "paste",
             "keys": "ctrl+v"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "copy",
                 "singleLine": false
@@ -20,7 +20,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -35,9 +35,9 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "initialCols": 100,
     "initialRows": 30,
-    "profiles":
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
             "antialiasingMode": "cleartype",
             "backgroundImage": "https://i0.hdslb.com/bfs/article/fc05814ad490adc95044d96fb6492e3c5a2fdbcb.jpg@942w_531h_progressive.webp",
@@ -45,7 +45,7 @@
             "closeOnExit": "graceful",
             "colorScheme": "One Half Dark",
             "cursorColor": "#66CCFF",
-            "font":
+            "font": 
             {
                 "face": "Consolas",
                 "size": 12,
@@ -56,12 +56,13 @@
             "snapOnInput": true,
             "useAcrylic": true
         },
-        "list":
+        "list": 
         [
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_11_1920x1200.jpg?raw=true",
                 "commandline": "pwsh -NoLogo",
-                "font":
+                "elevate": true,
+                "font": 
                 {
                     "face": "FiraCode Nerd Font"
                 },
@@ -74,7 +75,8 @@
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_10_2560x1600.jpg?raw=true",
                 "commandline": "powershell -NoLogo",
-                "font":
+                "elevate": true,
+                "font": 
                 {
                     "face": "FiraCode Nerd Font"
                 },
@@ -87,6 +89,7 @@
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/windows_7_1024x640.jpg?raw=true",
                 "commandline": "cmd /s /k",
                 "cursorShape": "vintage",
+                "elevate": true,
                 "experimental.retroTerminalEffect": false,
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
@@ -96,6 +99,7 @@
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/git_1920x1080.jpg?raw=true",
                 "commandline": "bash -l -i",
+                "elevate": true,
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/git.ico",
@@ -105,6 +109,7 @@
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/ubuntu_752x376.png?raw=true",
                 "commandline": "ubuntu",
+                "elevate": true,
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/ubuntu.ico",
@@ -114,6 +119,7 @@
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/kali_1280x720.png?raw=true",
                 "commandline": "kali",
+                "elevate": true,
                 "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
                 "hidden": false,
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/kali.ico",
@@ -121,16 +127,9 @@
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/azure_2736x1824.jpg?raw=true",
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": true,
-                "icon": "ms-appx:///ProfileIcons/{b453ae62-4e3d-5e58-b989-0a998ec441b8}.png",
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/mysql_1200x514.png?raw=true",
                 "commandline": "mysqlsh --uri root@localhost:3306 --mc --sqlc",
+                "elevate": true,
                 "guid": "{410c1798-cce8-4681-bb6c-f17f75e8f72a}",
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/mysqlsh.ico",
                 "name": "MySQL Shell",
@@ -139,6 +138,7 @@
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/node_1240x700.png?raw=true",
                 "commandline": "node",
+                "elevate": true,
                 "guid": "{595b01ee-0aaa-45c3-b95e-5536d13720bf}",
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/node.ico",
                 "name": "Node.js",
@@ -147,6 +147,7 @@
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/python_656x400.png?raw=true",
                 "commandline": "python",
+                "elevate": true,
                 "guid": "{3da5e8ad-07b0-46e5-85d0-7502dc35fe47}",
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/python.ico",
                 "name": "Python",
@@ -155,6 +156,7 @@
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/vim_wallpaper_1024x724.jpg?raw=true",
                 "commandline": "vim",
+                "elevate": true,
                 "guid": "{1e54bd1e-a851-4a61-b01b-e120fc4c0d87}",
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/vim.ico",
                 "name": "Vim",
@@ -162,7 +164,7 @@
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
         {
             "background": "#F7F7F7",
