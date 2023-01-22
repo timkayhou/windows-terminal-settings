@@ -4,8 +4,8 @@
     "actions":
     [
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command":
@@ -16,8 +16,8 @@
             "keys": "ctrl+c"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command":
@@ -109,7 +109,7 @@
                 "hidden": false,
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/ubuntu.ico",
                 "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/kali_1280x720.png?raw=true",
