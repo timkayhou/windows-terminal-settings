@@ -98,7 +98,7 @@
                 "commandline": "bash -l -i",
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
-                "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
+                "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/git.ico",
                 "name": "Git Bash",
                 "source": "Git"
             },
