@@ -104,6 +104,7 @@
             },
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/ubuntu_752x376.png?raw=true",
+                "commandline": "ubuntu",
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/ubuntu.ico",
@@ -112,6 +113,7 @@
             },
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/kali_1280x720.png?raw=true",
+                "commandline": "kali",
                 "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
                 "hidden": false,
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/kali.ico",
@@ -152,7 +154,7 @@
             },
             {
                 "backgroundImage": "https://github.com/timkayhou/my-pictures/blob/main/wallpapers/vim_wallpaper_1024x724.jpg?raw=true",
-                "commandline": "C:\\Program Files (x86)\\Vim\\vim82\\vim.exe",
+                "commandline": "vim",
                 "guid": "{1e54bd1e-a851-4a61-b01b-e120fc4c0d87}",
                 "icon": "https://raw.githubusercontent.com/timkayhou/my-pictures/main/icons/vim.ico",
                 "name": "Vim",
